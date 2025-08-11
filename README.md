@@ -9,16 +9,21 @@ comando dos: cd bookradar
 
 - Aseguar tener sql server instalado y corriendo
 
-- crear la base de dato llamada [BookRadarDB]
+- crear la base de datos:
+CREATE DATABASE BookRadarDB;
 
-- instalamos en la termnal la herramienta comando: dotnet tool install --global dotnet-ef
+## Configurar el entorno:
+- Instalar las herramientas de EF Core: 
+comando: dotnet tool install --global dotnet-ef
 
-- instalamos estos dos paquetes para correr las migraciones:
+- Instalar paquetes requeridos:
 Comando: (dotnet add package Microsoft.EntityFrameworkCore.Design)   Este paquete contiene las herramientas necesarias para que EF Core pueda generar y ejecutar migraciones, así como para scaffolding de código (por ejemplo, crear modelos a partir de una base existente).
 
 Comando: (dotnet add package Microsoft.EntityFrameworkCore.SqlServer)  Este paquete es el proveedor de base de datos que permite que EF Core trabaje con SQL Server.
 
-- ahora verificamos en la terminal que se muestre asi la ejemplo: PS C:\.net\prueba tecnica\BookRadar> para ejcutar el siguente 
+- ahora verificamos en la terminal que se muestre asi la ejemplo: PS C:\.net\prueba tecnica\BookRadar>
+
+## Ejecutar migraciones (si usa EF Core) 
 Comando: (dotnet ef migrations add CrearHistorialBusquedas) Esto me creará un archivo en la carpeta Migrations/ con las instrucciones SQL para crear la tabla según tu modelo.
 Comando: (dotnet ef database update) Esto conectará a BookRadarDB y creará la tabla automáticamente.
 
