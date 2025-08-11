@@ -1,0 +1,142 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\.net\\prueba tecnica\\BookRadar\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0ED5FE51-B374-12D5-ECCB-D975B21DF30D}|BookRadar.csproj|c:\\.net\\prueba tecnica\\bookradar\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ED5FE51-B374-12D5-ECCB-D975B21DF30D}|BookRadar.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ED5FE51-B374-12D5-ECCB-D975B21DF30D}|BookRadar.csproj|c:\\.net\\prueba tecnica\\bookradar\\views\\books\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0ED5FE51-B374-12D5-ECCB-D975B21DF30D}|BookRadar.csproj|solutionrelative:views\\books\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ED5FE51-B374-12D5-ECCB-D975B21DF30D}|BookRadar.csproj|c:\\.net\\prueba tecnica\\bookradar\\views\\books\\results.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0ED5FE51-B374-12D5-ECCB-D975B21DF30D}|BookRadar.csproj|solutionrelative:views\\books\\results.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ED5FE51-B374-12D5-ECCB-D975B21DF30D}|BookRadar.csproj|c:\\.net\\prueba tecnica\\bookradar\\views\\books\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0ED5FE51-B374-12D5-ECCB-D975B21DF30D}|BookRadar.csproj|solutionrelative:views\\books\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ED5FE51-B374-12D5-ECCB-D975B21DF30D}|BookRadar.csproj|c:\\.net\\prueba tecnica\\bookradar\\models\\searchhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ED5FE51-B374-12D5-ECCB-D975B21DF30D}|BookRadar.csproj|solutionrelative:models\\searchhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ED5FE51-B374-12D5-ECCB-D975B21DF30D}|BookRadar.csproj|c:\\.net\\prueba tecnica\\bookradar\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ED5FE51-B374-12D5-ECCB-D975B21DF30D}|BookRadar.csproj|solutionrelative:controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\destr\\AppData\\Local\\Temp\\uhhy0sa5..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\destr\\AppData\\Local\\Temp\\uhhy0sa5..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\destr\\AppData\\Local\\Temp\\uhhy0sa5..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\.net\\prueba tecnica\\BookRadar\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\.net\\prueba tecnica\\BookRadar\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T17:07:08.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SQLQuery1.sql ",
+              "DocumentMoniker": "C:\\Users\\destr\\AppData\\Local\\Temp\\uhhy0sa5..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\destr\\AppData\\Local\\Temp\\uhhy0sa5..sql",
+              "ToolTip": "SQLQuery1.sql *",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-08-11T16:58:12.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\.net\\prueba tecnica\\BookRadar\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BooksController.cs",
+              "ToolTip": "C:\\.net\\prueba tecnica\\BookRadar\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "Controllers\\BooksController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T04:52:44.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SearchHistory.cs",
+              "DocumentMoniker": "C:\\.net\\prueba tecnica\\BookRadar\\Models\\SearchHistory.cs",
+              "RelativeDocumentMoniker": "Models\\SearchHistory.cs",
+              "ToolTip": "C:\\.net\\prueba tecnica\\BookRadar\\Models\\SearchHistory.cs",
+              "RelativeToolTip": "Models\\SearchHistory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T17:05:54.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "C:\\.net\\prueba tecnica\\BookRadar\\Views\\Books\\Search.cshtml",
+              "RelativeDocumentMoniker": "Views\\Books\\Search.cshtml",
+              "ToolTip": "C:\\.net\\prueba tecnica\\BookRadar\\Views\\Books\\Search.cshtml",
+              "RelativeToolTip": "Views\\Books\\Search.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-09T04:22:05.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Results.cshtml",
+              "DocumentMoniker": "C:\\.net\\prueba tecnica\\BookRadar\\Views\\Books\\Results.cshtml",
+              "RelativeDocumentMoniker": "Views\\Books\\Results.cshtml",
+              "ToolTip": "C:\\.net\\prueba tecnica\\BookRadar\\Views\\Books\\Results.cshtml",
+              "RelativeToolTip": "Views\\Books\\Results.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-09T04:23:07.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "History.cshtml",
+              "DocumentMoniker": "C:\\.net\\prueba tecnica\\BookRadar\\Views\\Books\\History.cshtml",
+              "RelativeDocumentMoniker": "Views\\Books\\History.cshtml",
+              "ToolTip": "C:\\.net\\prueba tecnica\\BookRadar\\Views\\Books\\History.cshtml",
+              "RelativeToolTip": "Views\\Books\\History.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-09T04:23:32.956Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

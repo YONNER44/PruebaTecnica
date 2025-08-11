@@ -1,0 +1,34 @@
+﻿@model List<BookRadar.Models.SearchHistory>
+
+@{
+    ViewData["Title"] = "Resultados de la búsqueda";
+}
+
+<h2>Resultados de la búsqueda</h2>
+
+@if (Model != null && Model.Count > 0)
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Título</th>
+                <th>Año de publicación</th>
+                <th>Editorial</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var libro in Model)
+            {
+                <tr>
+                    <td>@libro.Titulo</td>
+                    <td>@libro.AnioPublicacion</td>
+                    <td>@libro.Editorial</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No se encontraron resultados para este autor.</p>
+}
