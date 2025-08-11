@@ -5,7 +5,10 @@ Paso para ejecutar la prueba:
 Comando: git clone https://github.com/usuario/PruebaTecnica.git
 comando dos: cd bookradar
 
-## 2. Configurar la base de datos:
+## 2. Restaurar las dependencias:
+comando: dotnet restore
+
+## 3. Configurar la base de datos:
 
 - Aseguar tener sql server instalado y corriendo
 
@@ -30,15 +33,12 @@ Comando: (dotnet ef database update) Esto conectará a BookRadarDB y creará la 
 
 
 
-## 3. Configurar la cadena de conexion:
+## 4. Configurar la cadena de conexion:
 en el archivo appsettings.json  Remplazar los valores de la cadena de conexion por los de su entorno
 
 "ConnectionStrings": {
   "DefaultConnection": "Server=localhost;Database=BookRadarDB;User Id=sa;Password=SuPassword123;TrustServerCertificate=True;"
 }
-
-## 4. Restaurar las dependencias:
-comando: dotnet restore
 
 ## 5. Aplicar las migraciones ( si se usa EF Core )
 Comando: dotnet ef database update
