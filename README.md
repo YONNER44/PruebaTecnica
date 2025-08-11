@@ -11,7 +11,19 @@ comando dos: cd bookradar
 
 - crear la base de dato llamada [BookRadarDB]
 
-- Ejecutar el script: scripts/01_create_table.sql  incluido en este repo para crear la tabla [HistorialBusquedas]
+- instalamos en la termnal la herramienta comando: dotnet tool install --global dotnet-ef
+
+- instalamos estos dos paquetes para correr las migraciones:
+Comando: (dotnet add package Microsoft.EntityFrameworkCore.Design)   Este paquete contiene las herramientas necesarias para que EF Core pueda generar y ejecutar migraciones, así como para scaffolding de código (por ejemplo, crear modelos a partir de una base existente).
+
+Comando: (dotnet add package Microsoft.EntityFrameworkCore.SqlServer)  Este paquete es el proveedor de base de datos que permite que EF Core trabaje con SQL Server.
+
+- ahora verificamos en la terminal que se muestre asi la ejemplo: PS C:\.net\prueba tecnica\BookRadar> para ejcutar el siguente 
+Comando: (dotnet ef migrations add CrearHistorialBusquedas) Esto me creará un archivo en la carpeta Migrations/ con las instrucciones SQL para crear la tabla según tu modelo.
+Comando: (dotnet ef database update) Esto conectará a BookRadarDB y creará la tabla automáticamente.
+
+
+
 
 ## 3. Configurar la cadena de conexion:
 en el archivo appsettings.json  Remplazar los valores de la cadena de conexion por los de su entorno
@@ -36,3 +48,10 @@ elegi una paleta sobria para Bootstrap 5 para aseguar una buena legibilidad y co
 cree unos formularios simples y centrados en la funcionalidad principal: busqueda de autor.
 - un boton secundario que me permitiera acceder al historial de busqueda facil mente.
 - cree una validacion de campos vacios en cliente y servidor.
+
+## Maquetado: di uso de layout compartido con emcabezado y pie de pagina coherentes el contenido principal se muestra en tarjetas (Bootstrap card) para mantener una estructura clara.
+
+## Mejoras pendientes:
+
+- implementar filtro avanzados (año de publicacion, editorial, idioma)
+- mejorar el manejo de errores y mensajes para el usuario cuando la api externa no responde.
